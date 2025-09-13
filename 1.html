@@ -99,6 +99,28 @@
             0% { transform: rotate(0deg); }
             100% { transform: rotate(360deg); }
         }
+        /* --- NEW: Register Button Style --- */
+        .register-button {
+            display: inline-block;
+            margin-top: 30px; /* Space between player and button */
+            padding: 15px 35px;
+            background-color: #e50914; /* Netflix Red */
+            color: #ffffff;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: background-color 0.2s ease, transform 0.2s ease;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .register-button:hover {
+            background-color: #f6121d; /* Slightly brighter red on hover */
+            transform: translateY(-2px); /* Slight lift effect */
+        }
 
     </style>
 </head>
@@ -116,6 +138,7 @@
         </div>
         <div id="loader"></div>
     </div>
+    <a href="https://billing.zuzz.tv/aff/go/nareshkumar9?i=2&game=0774e4244-live-stream&keyword=saxbox" class="register-button" target="_blank">Register Now</a>
 
     <script type="text/javascript">
         // Get elements from the page
